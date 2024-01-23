@@ -19,3 +19,9 @@ num3 = int(input())
 print('The product of the numbers you entered is:')
 print(num1*num2*num3)
 
+#concatanation
+print('enter a number')
+num_condos = input()
+
+print('Sam sold', num_condos, 'condos.')
+
