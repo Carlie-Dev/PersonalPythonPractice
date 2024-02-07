@@ -107,3 +107,9 @@ print(mySet)
 myDict = {'Burger': 1.99, 'ChickenStrip': 2.99, 'Soda':.99}
 
 print(myDict['Burger'])
+
+#inputs with a list
+# Reads four values from input into months_list
+months_list = [int(input()), int(input()), int(input()), int(input())]
+
+print(months_list[2]*months_list[3]+(months_list[1]-months_list[0]))
