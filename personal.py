@@ -102,6 +102,35 @@ print(mySet)
 #use the value to get the value
 print(mySet)
 
+#Another Set example
+
+animals=[]
+
+unique_animals = set(animals)
+
+animal1 = input()
+animal2 = input()
+animal3 = input()
+animal4 = input()
+
+unique_animals.add(animal1)
+unique_animals.add(animal2)
+unique_animals.add(animal3)
+unique_animals.add(animal4)
+print(sorted(unique_animals))
+
+
+#More sets
+colors_considered = {'navy'}
+more_colors = {input(), input(), input(), input()}
+
+colors_considered.update(more_colors)
+
+num_colors = len(colors_considered)
+
+print(sorted(colors_considered))
+print(f'Number of values considered: {num_colors}')
+
 
 #Dictionary
 myDict = {'Burger': 1.99, 'ChickenStrip': 2.99, 'Soda':.99}
@@ -113,3 +142,8 @@ print(myDict['Burger'])
 months_list = [int(input()), int(input()), int(input()), int(input())]
 
 print(months_list[2]*months_list[3]+(months_list[1]-months_list[0]))
+
+#Tuple
+# Definition: "A tuple, usually pronounced "tuhple" or "toople," stores a collection of data, like a list, but is immutable – once created, the tuple's elements cannot be changed."
+point = ('X string', 'Y string')
+
